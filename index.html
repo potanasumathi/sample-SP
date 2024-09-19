@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live View Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .circle{
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .circle:hover{
+            background-color: #13547a;
+        }
+        .toggle{
+            width: 100%;
+            text-align: end;
+            background-color:cadetblue;
+            padding: 10px;
+            font-size: larger;
+            display: none;
+        }
+        @media only screen and (max-width:800px){
+            .toggle{
+                display: block;
+            }
+            nav ul{
+                width: 100%;
+                display: none;
+            }
+            nav ul{
+                display: block;   
+            }
+            nav ul li{
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav>
+        <ul type="none">
+            <li><i class="fa-solid fa-clone" style="font-size: 30px;padding-right: 10px;"></i><a href="#" style="font-size: 30px;font-weight: bold;color: black;font-family: sans-serif;">Topic</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BROWSE TOPICS</a></li>
+            <li><a href="#">HOW IT WORKS</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <div class="hii">
+                <li><a href="#">PAGES</a></li>
+                <div class="list">
+                    <p>TOPICS LISTING</p>
+                    <p>CONTACT FORM</p>
+                </div>
+            </div>
+            <li class="circle"><i class="fa-regular fa-user" style="font-size: 20px;padding: 10px;"></i></li>
+        </ul>
+    </nav>
+    <div class="main">
+       <div class="box1">
+        <h1 style="font-size: 60px;color: white;font-family: sans-serif;padding-top: 30px;">Discover. Learn. Enjoy</h1>
+        <h6 style="color: #13547a;font-size: 20px;font-family: sans-serif;margin-top: 0%;">platform for creatives around the world</h6>
+        <div id="search">
+            <i class="fa-solid fa-magnifying-glass" style="font-size:20px;padding-top: 10px;"></i>
+            <input type="search" placeholder="Design,Code,Marketing,Finance..." id="input">
+            <a href="#"><input type="button" value="Search" id="hover"></a>
+            
+        </div>
+       </div>
+       <div id="box">
+        <a href="#" style="text-decoration: none;color: black;"><h2 style="font-family: sans-serif;margin-right: 160px;">Web Design</h2></a>
+        <p style="width: 230px;padding-left:25px;font-family: sans-serif;color: grey;font-size: 18px;text-align: justify;line-height: 25px;">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+        <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/topics/undraw_Remote_design_team_re_urdx.png" style="width:300px;height: 200px;"></div>
+       <div id="boxx">
+        <h2 style="font-family: sans-serif;margin-right: 350px;color: white;">Finance</h2>
+        <p style="width: 390px;padding-left:25px;font-family: sans-serif;color:white;font-size: 18px;text-align: justify;line-height: 30px;">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.
+        </p>
+        <a href="#" id="learn">Learn More</a>
+        <a href="#" style="text-decoration: none;"><pre style="color: white;margin-top: 100px;margin-right: 20px;font-size: 20px;font-family: sans-serif;">Share:      <i class="fa-brands fa-twitter" id="i"></i>    <i class="fa-brands fa-facebook" id="i"></i>    <i class="fa-brands fa-pinterest-p" id="i"></i>    <i class="fa-regular fa-bookmark" style="color: white;background-color: none;font-size: 20px;float: right;"></i>   
+        </pre></a>
+        </div>
+       <div class="box2"></div>
+    </div>
+    <h1 style="text-align: center;padding-top: 70px;font-weight: bold;font-size: 50px;font-family: sans-serif;">Browse Topics</h1>
+    <ul type="none">
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+    <div class="main1">
+        <div class="item1"><h2><a href="design.html" style="color: black;margin-left: 30px;font-family: sans-serif;text-decoration: none;" target="_self">Web Design</a></h2>
+        <p style="line-height: 25px;color:gray;font-size: 20px;width:200px;margin-left: 30px;">Topic Listing Template based on Bootstrap 5</p>
+        <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/topics/undraw_Remote_design_team_re_urdx.png" style="width: 300px;height: 200px;margin-top: 30px;margin-left: 30px;">
+        </div>
+        <div class="item2">
+            <h2><a href="design.html" style="color: black;margin-left: 30px;font-family: sans-serif;text-decoration: none;" target="_self">Graphic</a></h2>
+            <p style="line-height: 25px;color:gray;font-size: 20px;width:200px;margin-left: 30px;">Lorem ipsum dolor sit amet consectetur</p>
+            <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/topics/undraw_Redesign_feedback_re_jvm0.png" style="width: 300px;height: 200px;margin-top: 30px;margin-left: 30px;">
+        </div>
+        <div class="item3">
+            <h2><a href="design.html" style="color: black;margin-left: 30px;font-family: sans-serif;text-decoration: none;" target="_self">Logo Design</a></h2>
+            <p style="line-height: 25px;color:gray;font-size: 20px;width:200px;margin-left: 30px;">Lorem ipsum dolor sit amet consectetur</p>
+            <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/topics/colleagues-working-cozy-office-medium-shot.png" style="width: 300px;height: 250px;margin-left: 30px;">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live View Page</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .circle{
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .circle:hover{
+            background-color: #13547a;
+        }
+        #read{
+            text-decoration: none;
+            color:aquamarine;
+            border: 2px solid aquamarine;
+            width: 500px;
+            height: 40px;
+            border-radius: 60px;
+            padding: 15px;
+            font-family: sans-serif;
+            font-size: 18px;
+            margin-top: 30px;
+            font-weight: bolder;
+        }
+        #read:hover{
+            background-color: aquamarine;
+            color: white;
+        }
+        #save{
+            color: white;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+        #save:hover{
+            color: aquamarine;
+        }
+        .make{
+            text-align:center;
+            width: 550px;
+            margin: 40px 310px;
+            border: 1px solid #f0f8ff;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+            width:600px;
+            height: 100px;
+            padding: 30px;
+            line-height: 50px;
+            font-family: sans-serif;
+        }
+        .pics{
+            margin-left: 280px;
+            
+        }
+        .img{
+            border-radius: 30px;
+            width: 350px;
+            height: 220px;
+            margin-right: 20px;
+        }
+        .downbox{
+            background-color: #f0f8ff;
+            height: 500px;
+            display: flex;
+        }
+        #sub{
+            width: 375px;
+            height: 55px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-family: sans-serif;
+            margin-top: 30px;
+            background-color: cadetblue;
+            border: 1px solid cadetblue;
+            color: white;
+            font-weight: bold;
+        }
+        #sub:hover{
+            background-color: #13547a;
+        }
+        .toggle{
+            width: 100%;
+            text-align: end;
+            background-color:cadetblue;
+            padding: 10px;
+            font-size: larger;
+            display: none;
+        }
+        @media only screen and (max-width:800px){
+            .toggle{
+                display: block;
+            }
+            nav ul{
+                width: 100%;
+                display: none;
+            }
+            nav ul{
+                display: block;    
+            }
+            nav ul li{
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav>
+        <ul type="none">
+            <li><i class="fa-solid fa-clone" style="font-size: 30px;padding-right: 10px;"></i><a href="#" style="font-size: 30px;font-weight: bold;color: black;font-family: sans-serif;">Topic</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BROWSE TOPICS</a></li>
+            <li><a href="#">HOW IT WORKS</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <div class="hii">
+                <li><a href="#">PAGES</a></li>
+                <div class="list">
+                    <p>TOPICS LISTING</p>
+                    <p>CONTACT FORM</p>
+                </div>
+            </div>
+            <li class="circle"><i class="fa-regular fa-user" style="font-size: 20px;padding: 10px;"></i></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="box1">
+            <p style="color: white;margin-right: 800px;margin-top: 100px;"><a href="index.html" target="_self" style="text-decoration: none;color: #13547a;">Homepage</a>/Web Design</p>
+            <h1 style="font-size: 50px;color: white;font-family: sans-serif;width:450px;margin-left: 100px;">Introduction to Web Design 101</h1>
+            <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/topics/undraw_Remote_design_team_re_urdx.png" style="width: 450px;height: 300px;border-radius: 20px;float: right;position: absolute;top:180px;left:630px;">
+            <pre style="margin-right: 800px;"><a href="#" id="read">Read More</a>    <i class="fa-regular fa-bookmark" id="save"></i></pre>
+        </div>
+    </div>
+        <h1 style="font-family: sans-serif;margin-top: 100px;margin-left:270px;">Introduction to Web Design</h1>
+        <p style="line-height: 30px;color:gray;font-size: 20px;width:700px;margin-left: 270px;font-family: sans-serif;">So how can you stand out, do something unique and interesting, build an online business, and get paid enough to change life. Please visit TemplateMo website to download free website templates.</p>
+        <p style="line-height: 30px;color:gray;font-size: 20px;width:700px;margin-left: 270px;font-family: sans-serif;">There are so many ways to make money online. Below are several platforms you can use to find success. Keep in mind that there is no one path everyone can take. If that were the case, everyone would have a million dollars.</p>
+        <h1 class="make">Freelancing your skills isn't going to make you a millionaire overnight.</h1>
+        <div class="pics">
+            <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/businesswoman-using-tablet-analysis.jpg" class="img">
+            <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/colleagues-working-cozy-office-medium-shot.jpg" class="img">
+            <p style="line-height: 30px;color:gray;font-size: 20px;width:700px;font-family: sans-serif;">Most people start with freelancing skills they already have as a side hustle to build up income. This extra cash can be used for a vacation, to boost up savings, investing, build business.</p>
+        </div>
+        <div class="downbox">
+            <div>
+                <img src="https://templatemo.com/templates/templatemo_590_topic_listing/images/rear-view-young-college-student.jpg" style="width: 450px;height: 300px;margin: 100px 75px 100px 150px;border-radius: 20px;">
+            </div>
+            <div>
+                <h1 style="font-family: sans-serif;margin-top: 150px;">Get Newsletter</h1>
+                <div class="hii">    
+                <input type="email" placeholder="Email Address" style="width: 350px;   height: 50px;border-radius: 30px;border: 1px solid grey;font-size: 18px;padding-left: 20px;font-family: sans-serif;">
+                <div class="list">
+                    <p>Please fill out this field</p>
+                    
+                </div>
+            </div>
+                <a href="#"><input type="button" value="Subscribe" id="sub"></a>
+            </div>
+
+        </div>
+        
+</body>
+</html>
